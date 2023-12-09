@@ -1,0 +1,38 @@
+@media only screen and (max-width: 992px) {
+
+
+    /* real number section && ranking card section */
+
+
+
+    section#rankingCards{
+        .rank-card{
+            max-width: 380px;
+        }
+    }
+
+
+    // about us section ... sevice card 
+    section#aboutUs .about-us-card{
+        margin-top: 2rem;
+        &-same {
+            position: relative;
+            top: 0px !important;
+            left: 0px !important;
+        }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
