@@ -1,100 +1,67 @@
-[//]: # (# Hi there, I'm Khandokar Ismail 👋)
+## This is a protfolio project. This project has login and singup option, which is work fine in development mode. But Production mode after login , login and signup page still not hiding. I am trying ot fix it
 
-[//]: # ()
-[//]: # (I'm a passionate MERN Stack Web Developer who thrives on challenges and is dedicated to continuous learning. My goal is to contribute to innovative projects and create valuable web experiences.)
+### This is a [Next.js](https://nextjs.org/) project with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-[//]: # ()
-[//]: # (## 🚀 About Me)
 
-[//]: # ()
-[//]: # (- 🔭 I'm currently working with **Next.js** and **Node.js**)
+# Project Detail:
 
-[//]: # (- 🌱 I'm proficient in **JavaScript** and **TypeScript**)
+1) This project is unique design. This is my own Design. 
+2) Here I create 7 pages. 
+3) I use SASS/SCSS in this project
+4) I also use Bootstrap5
+5) all page is static
+6) singup and login authentication is manualy created . not use any 3 rd party packages.
+7) I use MongoDb for user saving.
+8) use jwt for generate a cookies and save database
+9) finally i secure profile page for using middleware
 
-[//]: # (- ⚡ My tech stack includes **React**, **Express.js**, **MongoDB**, **SQL**, and **Prisma**)
+# Challenges
+#### This project is working fine in development mode. but production mode login and singup still access after login. I try to fix this problem
 
-[//]: # (- 💼 Seeking opportunities to apply my skills and contribute to exciting projects)
 
-[//]: # (- 🎓 Studied and experienced in creating efficient and scalable web applications)
 
-[//]: # ()
-[//]: # ()
-[//]: # (## 🛠️ Skills)
+# Usage of Technologies
+1. [x] [**Typescript**](https://www.typescriptlang.org/)
+2. [x] [**Axios**](https://axios-http.com/)
+3. [x] [**Bootstrap 5**](https://getbootstrap.com/)
+4. [x] [**React**](https://react.dev/)
+5. [x] [**Next JS**](https://nextjs.org/)
+6. [x] [**Mongo DB**](https://www.mongodb.com/)
+7. [x] [**SCSS / SASS**]()
 
-[//]: # ()
-[//]: # (- **Languages:** JavaScript, TypeScript)
 
-[//]: # (- **Frontend:** React, Next.js)
 
-[//]: # (- **CSS Frameworks:** Bootstrap, Tailwind, Milligram)
+# Installation Instructions:
+First, run the development server:
 
-[//]: # (- **Styling Preprocessors:** SCSS/Sass)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+### Pls make sure `.env` file must be a variable for api which is `BASE_URL`.  Otherwise project show Error
 
-[//]: # (- **Backend:** Node.js, Express.js)
 
-[//]: # (- **Databases:** MongoDB, SQL)
 
-[//]: # (- **ORM:** Prisma)
 
-[//]: # ()
-[//]: # (### 💻 Coding Style)
+# Responsiveness and Accessibility:
+#### This project is fully responsive. Every single div i use mobile friendly CSS. I used Tailwind Css, which was awesom. I just Love Tailwind Css
 
-[//]: # ()
-[//]: # (I have a strong inclination towards crafting elegant and maintainable styles, and I particularly love working with SCSS. The power and flexibility it offers in enhancing the structure and aesthetics of web applications align perfectly with my approach to web development.)
 
-[//]: # ()
-[//]: # (Let's not just write code; let's sculpt an immersive and visually appealing user experience together!)
+# Usage of Components:
+This Project has 15 components. which is reusable component. I use this components all of our projects.
 
-[//]: # ()
-[//]: # ()
-[//]: # (## 📂 Previous Experience)
+# Deployment:
+#### This is A Portfolio Website. This website is Fully SEO Friendly. Because I use generateMetaData()in this project. This project has 5 pages. All pages I used generateMetadat function.
 
-[//]: # ()
-[//]: # (### Fiverr Level One Seller)
 
-[//]: # ()
-[//]: # (- **Role:** Freelance WordPress Developer)
+## [Live Website Link](https://portfolio-rxfp.vercel.app/)
+https://portfolio-rxfp.vercel.app/
 
-[//]: # (- **Duration:** 2018 - Present)
+### Thanks for your valuable time to read this docs.
+###### Regards Ismail, web developer
 
-[//]: # (- **Description:**)
-
-[//]: # ()
-[//]: # (  As a Fiverr Level One Seller, I specialize in providing top-notch WordPress services. Recognized for delivering outstanding service and ensuring client satisfaction, I have a proven track record of successfully completing projects with a strong emphasis on quality and adherence to timelines.)
-
-[//]: # ()
-[//]: # (  **Recent Projects:**)
-
-[//]: # ()
-[//]: # (    1. [SMCHS School Website]&#40;https://smchs.edu.gh&#41;: I had the privilege of working with Nana Akyea to develop a dynamic and user-friendly WordPress website for SMCHS School in Ghana. The project involved creating a modern design, implementing essential features, and ensuring seamless navigation for visitors.[https://smchs.edu.gh]&#40;https://smchs.edu.gh&#41;)
-
-[//]: # ()
-[//]: # (    2. [i-StudyAbroad]&#40;https://www.i-studyabroad.org&#41;: Collaborating with Nana Akyea, I designed and developed the i-StudyAbroad website on WordPress. The site focuses on providing valuable information to students interested in studying abroad, featuring an intuitive interface and engaging content. [https://www.i-studyabroad.org]&#40;https://www.i-studyabroad.org&#41;)
-
-[//]: # ()
-[//]: # (  ### 🛠️ **Let's Collaborate!**)
-
-[//]: # ()
-[//]: # (  Whether you have a specific project in mind or need consultation on web development, I'm here to help. Let's create something extraordinary together!)
-
-[//]: # ()
-[//]: # ()
-[//]: # (## 🌐 Connect with Me)
-
-[//]: # ()
-[//]: # (- [Fiverr]&#40;https://www.fiverr.com/khandokarismail&#41;)
-
-[//]: # (- [Facebook]&#40;https://www.facebook.com/ismail.khandokar.315/&#41;)
-
-[//]: # (- [GitHub]&#40;https://github.com/khandokarIsmailDev&#41;)
-
-[//]: # ()
-[//]: # (Let's connect and discuss how we can collaborate to bring innovative ideas to life! Feel free to reach out for any inquiries or just to say hi! 👋)
-
-[//]: # ()
-[//]: # ()
-[//]: # ([![]&#40;https://raw.githubusercontent.com/khandokarIsmailDev/khandokarIsmailDev/master/profile-summary-card-output/merko/0-profile-details.svg&#41;]&#40;https://github.com/vn7n24fzkq/github-profile-summary-cards&#41;)
-
-[//]: # ([![]&#40;https://raw.githubusercontent.com/khandokarIsmailDev/khandokarIsmailDev/master/profile-summary-card-output/merko/1-repos-per-language.svg&#41;]&#40;https://github.com/vn7n24fzkq/github-profile-summary-cards&#41; [![]&#40;https://raw.githubusercontent.com/khandokarIsmailDev/khandokarIsmailDev/master/profile-summary-card-output/merko/2-most-commit-language.svg&#41;]&#40;https://github.com/vn7n24fzkq/github-profile-summary-cards&#41;)
-
-[//]: # ([![]&#40;https://raw.githubusercontent.com/khandokarIsmailDev/khandokarIsmailDev/master/profile-summary-card-output/merko/3-stats.svg&#41;]&#40;https://github.com/vn7n24fzkq/github-profile-summary-cards&#41; [![]&#40;https://raw.githubusercontent.com/khandokarIsmailDev/khandokarIsmailDev/master/profile-summary-card-output/merko/4-productive-time.svg&#41;]&#40;https://github.com/vn7n24fzkq/github-profile-summary-cards&#41;)
