@@ -6,7 +6,7 @@ const Page = ({ params }: any) => {
     // const { id } = router.query;
 
     return (
-        <div>
+        <div className="text-center my-5">
             <h1>Your ID: </h1>
             <h4>{params.id}</h4>
         </div>

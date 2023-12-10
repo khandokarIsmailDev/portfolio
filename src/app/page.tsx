@@ -1,4 +1,3 @@
-import React from 'react';
 import Hero from "@/components/Heor";
 import Advisor from "@/components/Advisor";
 import AboutUs from "@/components/AboutUs";
@@ -7,6 +6,7 @@ import Team from "@/components/Team";
 import Services from "@/components/Services";
 import GreatThing from "@/components/GreatThing";
 import Subscribe from "@/components/Subscribe";
+
 
 const page = () => {
   return (
@@ -20,7 +20,6 @@ const page = () => {
         <Services/>
         <GreatThing/>
         <Subscribe/>
-
     </div>
   );
 };

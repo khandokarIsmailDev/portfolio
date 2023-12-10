@@ -1,5 +1,7 @@
+
 import React from 'react';
 import Link from "next/link";
+
 
 const MainNav = () => {
     return (
@@ -108,6 +110,7 @@ const MainNav = () => {
                         <div className="d-flex" >
                             <Link href={'/login'} className="btn btn-primary fw-medium top-image-search-shadow me-3 text-white">Login</Link>
                             <Link href={'/signup'} className="btn btn-primary fw-medium top-image-search-shadow text-white">Register</Link>
+
                         </div>
                     </div>
                 </div>

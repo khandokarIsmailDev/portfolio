@@ -7,15 +7,19 @@ import Head from "next/head";
 import MainNav from "@/components/MainNav";
 import Footer from "@/components/Footer";
 import toast, { Toaster } from "react-hot-toast";
+import RootProvider from "@/components/RootProvider";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Home',
-  description: 'SEO Agency',
-  icons: {
-    icon: '/fabicon.png', // /public path
-  },
+export function generateMetadata(){
+    return{
+        title:'Home',
+        description:'SEO Agency',
+        icons:{
+            icon: '/fabicon.png'
+        }
+    }
 }
 
 
@@ -28,10 +32,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      <RootProvider>
       <MainNav/>
       <Toaster position="bottom-right" />
       {children}
       <Footer/>
+      </RootProvider>
       </body>
     </html>
   )
