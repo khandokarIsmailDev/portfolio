@@ -59,8 +59,8 @@ This Project has 15 components. which is reusable component. I use this componen
 #### This is A Portfolio Website. This website is Fully SEO Friendly. Because I use generateMetaData()in this project. This project has 5 pages. All pages I used generateMetadat function.
 
 
-## [Live Website Link](https://portfolio-rxfp.vercel.app/)
-https://portfolio-rxfp.vercel.app/
+## [Live Website Link](https://portfoliokhandokar.vercel.app/)
+https://portfoliokhandokar.vercel.app/
 
 ### Thanks for your valuable time to read this docs.
 ###### Regards Ismail, web developer
